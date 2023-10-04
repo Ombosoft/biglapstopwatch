@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Big Lap Stopwatch</string>
+    <string name="start">Start</string>
+    <string name="restart">Restart</string>
+    <string name="pause">Pause</string>
+    <string name="lap">Lap</string>
+    <string name="reset">Reset</string>
+</resources>

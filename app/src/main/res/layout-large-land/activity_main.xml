@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:keepScreenOn="true"
+    android:orientation="vertical"
+    tools:context="top.ombosoft.biglapstopwatch.MainActivity">
+
+    <TextView
+        android:id="@+id/total_time"
+        style="@style/Widget.biglapstopwatch.TextView.Total"
+        android:autoSizeTextType="none"
+        android:textSize="@dimen/textSize"
+        android:text="00:00:00" />
+
+    <TextView
+        android:id="@+id/lap_time"
+        style="@style/Widget.biglapstopwatch.TextView.Lap"
+        android:autoSizeTextType="none"
+        android:textSize="@dimen/textSize"
+        android:text="00:00:00" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/start"
+            style="@style/Widget.biglapstopwatch.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start"
+            app:icon="@drawable/ic_start" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/pause"
+            style="@style/Widget.biglapstopwatch.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pause"
+            app:icon="@drawable/ic_pause" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/lap"
+            style="@style/Widget.biglapstopwatch.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lap"
+            app:icon="@drawable/ic_lap" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/reset"
+            style="@style/Widget.biglapstopwatch.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reset"
+            app:icon="@drawable/ic_reset" />
+
+    </LinearLayout>
+</LinearLayout>
