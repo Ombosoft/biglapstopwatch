@@ -7,8 +7,8 @@ import android.view.ViewGroup
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.children
-import org.deltafligt.biglapclock.R
-import org.deltafligt.biglapclock.databinding.ActivityMainBinding
+import top.ombosoft.biglapstopwatch.R
+import top.ombosoft.biglapstopwatch.databinding.ActivityMainBinding
 import java.util.*
 import kotlin.concurrent.timer
 
